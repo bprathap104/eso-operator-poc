@@ -4,6 +4,8 @@ Run these commands from the `tf_code` directory.
 
 **Migration test:** Install ESO 0.19.2 first, then upgrade to 1.3.2 to validate the migration path.
 
+**Full upgrade guide (API differences, stepped path, verification):** [eso-upgrade-0.19-to-1x.md](./eso-upgrade-0.19-to-1x.md).
+
 ## 1. Connect to AKS
 
 ```bash
