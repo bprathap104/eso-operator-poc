@@ -1,0 +1,11 @@
+# Values for ESO with Azure Workload Identity
+# Use: helm upgrade --install -f manifests/eso-workload-identity-values.yaml ...
+installCRDs: true
+rbac:
+  create: true
+serviceAccount:
+  create: false
+  name: eso-workload-identity-sa
+# Required for Azure Workload Identity - enables token injection into pod
+podLabels:
+  "azure.workload.identity/use": "true"

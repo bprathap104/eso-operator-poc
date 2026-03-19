@@ -1,0 +1,26 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Cursor
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.json
+!package.json
+!package-lock.json
